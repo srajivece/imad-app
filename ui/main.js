@@ -9,6 +9,6 @@ element.innerHTML= 'New Value';
 //move image
 
  var img =document.getElementById('modi');
- img.onclick =function() {
+ img.onclick = function() {
      img.style.marginleft='100px';
  };
