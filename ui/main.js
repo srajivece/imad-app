@@ -15,7 +15,7 @@ element.innerHTML= 'New Value';
 
  //counter code
  var button=document.getElemntById('counter');
- var counter=0;
+ button.onclick = function(){
  //creat request objetc
  var request=new HMLHttpRequest();
  //capture the request and store it on variable
