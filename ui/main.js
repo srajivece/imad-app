@@ -32,6 +32,7 @@ element.innerHTML= 'New Value';
  };
  
  //makethe request
- request.open('GET' , 'http//srajivece.imad.hasura-app.io/counter',true);
+ request.open('GET','http://srajivece.imad.hasura-app.io/counter',true);
  request.send(null);
+
  };
