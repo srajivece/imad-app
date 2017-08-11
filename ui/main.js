@@ -12,6 +12,7 @@ element.innerHTML= 'New Value';
  img.onclick = function() {
      img.style.marginleft='100px';
  };
+
  //counter code
  var button=document.getElemntById('counter');
  var counter=0;
