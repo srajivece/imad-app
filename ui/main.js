@@ -17,7 +17,7 @@ element.innerHTML= 'New Value';*/
  var button = document.getElementById('counter');
  button.onclick = function(){
  //creat request objetc
- var request=new HMLHttpRequest();
+ var request=new XMLHttpRequest();
  //capture the request and store it on variable
  request.onreadystatechange = function(){
      if(request.readystate === XMLHttpRequest.DONE){
