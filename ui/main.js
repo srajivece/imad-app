@@ -9,9 +9,15 @@ element.innerHTML= 'New Value';*/
 //move image
 
  var img =document.getElementById('madi');
- img.onclick = function() {
-     img.style.marginLeft='100px';
- };
+ varmarginLeft = 0;
+ function moveRight(){
+     marginLeft= marginLeft + 10;
+     img.style.marginLeft=marginLeft + 'px';
+ }
+     img.onclick=function (){
+         var interval=setinterval(moveRight, 100);
+         
+     };
 
  //counter code
  var button = document.getElementById('counter');
