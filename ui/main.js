@@ -14,7 +14,7 @@ element.innerHTML= 'New Value';*/
  };
 
  //counter code
- var button=document.getElemntById('counter');
+ var button = document.getElementById('counter');
  button.onclick = function(){
  //creat request objetc
  var request=new HMLHttpRequest();
