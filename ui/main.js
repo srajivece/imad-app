@@ -42,3 +42,40 @@ element.innerHTML= 'New Value';*/
  request.send(null);
 
  };
+ 
+ 
+ var nameInput=document.getElementById('name');
+ var name =nameInput.value:
+ var submit=document.getElementById('submit-btn');
+ submit.onclick=function(){
+ var mnames =['name1','nmae2','name3','name4'];
+ var list ='';
+ for (var i=0;i<names.length;i++){
+     list +='<li>'+nmaes[i] +'<li>';
+ }
+ 
+ var ul =document.getElementById('names');
+ ul.innerHTML=list;
+ };
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
