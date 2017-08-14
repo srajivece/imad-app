@@ -21,7 +21,7 @@ app.get('/counter', function(req,res){
 });
 
 var names=[];
-app.get('/submit-nmae' ,function (req,res){
+app.get('/submit-nmae/:name' ,function (req,res){
     var name=req.paramsname;
     names.push(name);
     res.send(JSON.stringfy(names));
