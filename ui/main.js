@@ -44,14 +44,14 @@ element.innerHTML= 'New Value';*/
  };
  
  
- var nameInput=document.getElementById('name');
- var name =nameInput.value:
+ var nameInput = document.getElementById('name');
+ var name = nameInput.value:
  var submit=document.getElementById('submit-btn');
  submit.onclick=function(){
  var mnames =['name1','nmae2','name3','name4'];
  var list ='';
  for (var i=0;i<names.length;i++){
-     list +='<li>'+nmaes[i] +'<li>';
+     list +='<li>'+names[i] +'<li>';
  }
  
  var ul =document.getElementById('names');
