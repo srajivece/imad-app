@@ -22,9 +22,9 @@ app.get('/counter', function(req,res){
 
 var names=[];
 app.get('/submit-nmae/:name' ,function (req,res){
-    var name=req.paramsname;
+    var name=req.params.name;
     names.push(name);
-    res.send(JSON.stringfy(names));
+    res.send(JSON.stringify(names));
     
     
 });
