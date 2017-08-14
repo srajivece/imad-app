@@ -3,10 +3,10 @@ var morgan = require('morgan');
 var path = require('path');
 var pool =require ('pg').pool;
 var config= {
-    user: 'srajivece'
-    database: 'srajivece'
-    host:'db.imad.hasura-app.io'
-    port:'5432'
+    user: 'srajivece',
+    database: 'srajivece',
+    host:'db.imad.hasura-app.io',
+    port:'5432',
     password:process.env.DB-PASSWORD
 };
 
@@ -18,17 +18,20 @@ app.get('/', function (req, res) {
 });
 
 var pool= new pool(config);
-app.get('/test-db',function (req,res)){
-    pool query ('SELECT"FROM test' function(err,result)){
-        if (err){
+app.get('/test-db', function (req ,res) {
+    pool query ('SELECT"FROM test' function(err ,result){
+        if (err)
+        {
             res.status(500).send(err.toString());
     }
-    else{
-        res.send{JSON.stringify());
+    else
+    {
+        res.send{JSON.storingify());
+        });
 }
 
-   });
-});
+  
+
 
 var counter = 0;
 app.get('/counter', function(req,res){
